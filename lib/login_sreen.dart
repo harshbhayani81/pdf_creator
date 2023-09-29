@@ -82,7 +82,7 @@ class _login_scrState extends State<login_scr> {
         "password": passwordcontroller.text.toString(),
       };
 
-      final loginurl =  'https://elevenengineers.com/HariOm/public/api/v3/auth/users/login?phone=1111111111&password=123456';
+      final loginurl =  'your_login_URl';
 
       var response = await http.post(Uri.parse(loginurl), body: body);
 
